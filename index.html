@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -20,10 +21,18 @@ tw-story
   background-color: #dda0dd;
 }
 
-<audio autoplay loop>
-<source src="https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%98%D0%B6%D0%B5_%D0%A5%D0%B5%D1%80%D1%83%D0%B2%D0%B8%D0%BC%D1%8B%2C_%E2%84%967._%D0%91%D0%BE%D1%80%D1%82%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%BE.ogg" type='audio/mpeg; codecs="mp3"'>
-</audio>
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Here" tags="" position="253,25" size="200,100">&lt;script&gt;
+.passage img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">var audio = document.createElement('audio');
+
+audio.src = 'https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%98%D0%B6%D0%B5_%D0%A5%D0%B5%D1%80%D1%83%D0%B2%D0%B8%D0%BC%D1%8B%2C_%E2%84%967._%D0%91%D0%BE%D1%80%D1%82%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%BE.ogg';
+
+audio.loop = true;
+
+audio.play();</script><tw-passagedata pid="1" name="Here" tags="" position="399,23" size="200,100">&lt;script&gt;
 	var audio = document.createElement(&#39;audio&#39;);
 	audio.src = &#39;https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%98%D0%B6%D0%B5_%D0%A5%D0%B5%D1%80%D1%83%D0%B2%D0%B8%D0%BC%D1%8B%2C_%E2%84%967._%D0%91%D0%BE%D1%80%D1%82%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%BE.ogg&#39;;
 	audio.loop = true;
@@ -33,10 +42,7 @@ Your name is Vladislav Kryvenko.
 
 
 
-You are a young man from the Bukovyna region of what is now Ukraine. You are illiterate and have little to no money to your name. Some of your neighbours have moved to Canada in search of a better life. 
-
-
-The Canadian government is sponsoring young men like you to come to Canada and be gifted 160 acres of fertile land.
+You are a young man from the Bukovyna region of what is now Ukraine. You  have very little money to your name. The Canadian government is sponsoring young men like yourself to settle in Canada. You have even had several neighbours move to Canada.
 
 
 
@@ -44,26 +50,30 @@ Surely Canada must be a beautiful New Word, why else would they not return?
 
 
 
-
-
-You manage to meet a man who works for the North Atlantic Trading Company. He agrees to sell you a ticket to the next steamship [[out]] of there. </tw-passagedata><tw-passagedata pid="2" name="out" tags="" position="283,150" size="100,100">&lt;audio autoplay loop&gt;
-  &lt;source src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%98%D0%B6%D0%B5_%D0%A5%D0%B5%D1%80%D1%83%D0%B2%D0%B8%D0%BC%D1%8B%2C_%E2%84%967._%D0%91%D0%BE%D1%80%D1%82%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%BE.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+You meet a man who is a representative for the North Atlantic Trading Company. He agrees to sell you a ticket to the next steamship [[out]] of Bukovyna.</tw-passagedata><tw-passagedata pid="2" name="out" tags="" position="206,180" size="100,100">
+&lt;audio&gt;
+A.create(&#39;background music&#39;, &#39;https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%98%D0%B6%D0%B5_%D0%A5%D0%B5%D1%80%D1%83%D0%B2%D0%B8%D0%BC%D1%8B%2C_%E2%84%967._%D0%91%D0%BE%D1%80%D1%82%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%BE.ogg&quot; type=&quot;audio/ogg&#39;);
+	A.t[&#39;background music&#39;].loop(true);
+	A.t[&#39;background music&#39;].play();
 &lt;/audio&gt;
-You arrive in Halifax on a steamship.
+
+You leave your life in Bukovyna behind. You arrive in Halifax weeks later.
 
 
 
-Leaving your life in Bukovyna behind, you have the clothes on your back and a steamer trunk. Hundreds of people are lined up in front and behind you. 
+You have the clothes on your back, and a steamer truck with your remaining belongings. Hundreds of other immigrants line up behind and in front of you.  
 
 
 
 
-You hear a man yelling in English but cannot understnad. A man behind you translates this, telling you to visit the Immigration Department Office where you will be [[offered employment]].</tw-passagedata><tw-passagedata pid="3" name="offered employment" tags="" position="199,308" size="100,100">When visiting the immigration officer, the officer says that no one will understand such a long name.
+After what feels like hours, you hear a man yelling in English but cannot understand. A man guides you towards the Immigration Department Office where you will be [[offered employment]].</tw-passagedata><tw-passagedata pid="3" name="offered employment" tags="" position="199,428" size="100,100">You are in luck! While they do not speak Ukrainian, the immigration officer is fluent in Russian. He explains to you that Canadians will not accept your name, as it is too long. TO fit into their society, he reads you a list of acceptable Canadian names.
+
+
 
 You are now William Pearl. 
 
 
-With little skills, the immigration officer describes several blue-collar jobs, but only two stand out to you. The first, is working here in Halifax as a shipyard worker with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Halifax_Shipyard#Halifax_Graving_Dock_Company_1889%E2%80%931918&quot;&gt;Halifax Graving Dock Company&lt;/a&gt;. The other job is in British Columbia, as a coal miner at the &lt;a href=&quot;http://www.ghosttownpix.com/bc/morrissey.html&quot;&gt;Morrissey Coal Mine&lt;/a&gt;. 
+With little skills, the immigration officer describes several blue-collar jobs, but only two stand out to you. The first, is working here in Halifax as a shipyard worker with the&lt;a href=&quot;https://en.wikipedia.org/wiki/Halifax_Shipyard#Halifax_Graving_Dock_Company_1889%E2%80%931918&quot; target=&quot;_blank&quot;&gt; Halifax Graving Dock Company&lt;/a&gt;. The other job is in British Columbia, as a coal miner at the &lt;a href=&quot;http://www.ghosttownpix.com/bc/morrissey.html&quot; target=&quot;_blank&quot;&gt;Morrissey Coal Mine&lt;/a&gt;. 
 
 
 
@@ -73,17 +83,32 @@ Would you rather be a [[shipyard worker]] or a [[coal miner]]? </tw-passagedata>
 
 
 
-The immigration office sets you up with your own apartment in Halifax. You like living here. There are many others immigrants just like you.
+The immigration office sets you up with your own apartment in Halifax. You like living here. There are many other immigrants just like you. In the evenings after work, you take classes to learn English.You have even made new [[friends]] from Eastern Europe, some even able to speak Ukrainian with you.
 
 
-You have even begun to learn English! Working around Pier 6 is hard work, but you feel as though the journey was worth it. You have even made new [[friends]] who speak Ukranian. </tw-passagedata><tw-passagedata pid="5" name="coal miner" tags="" position="532,221" size="100,100">You decide on becoming a coal miner in Morrissey, British Columbia. The company that hires you pays for your train ticket to B.C.. It is hard work, but the pay is good. Things are going great, until the workers strike against working with enemy aliens. You and your friends discuss running away to America to live a better life. Do you run to live a better life in [[America]]? Or do you want to stay in [[Morrissey]]?</tw-passagedata><tw-passagedata pid="6" name="friends" tags="" position="0,450" size="100,100">The year is now 1914. The War Measures Act is created. 
+Working in the shipyard is hard work, but you feel as though the journey was worth it. Your job at the shipyard involves cleaning the decks, preparing the gangway, as well as repairs around the shipyard.
+</tw-passagedata><tw-passagedata pid="5" name="coal miner" tags="" position="531,221" size="100,100">Congratulations! You have just received your first job in Canada.
+
+You decide on becoming a coal miner in Morrissey, British Columbia. 
+
+The company that hires you pays for your train ticket to B.C.. The ride takes five days. You arrive in Morrissey and are amazed by the old growth forests that tower over your head.
+
+The year is now 1914. THe War Measures Act is created. 
+
+Working in the mines is difficult, but the pay is good. You work in the mines shovelling away coal and debris after it has been blasted. On your days off, you are learning English through night classes at the community centre.
 
 
-Fortunately, you are not one of the many young Ukranian immigrants forced to go to internment camps across Canada.
+Things are going great, until the workers strike against working with enemy aliens. Your colleagues now refuse to work with you.
+
+
+You and your colleageus discuss running away to America to avoid confronation and any backlash you might face living here in Morrissey. Do you run for a chance at a better life in [[America]]? Or do you stay in [[Morrissey]]?</tw-passagedata><tw-passagedata pid="6" name="friends" tags="" position="0,450" size="100,100">The year is now 1914. The War Measures Act is created. 
+
+
+As a person of Ukrainian descent, you are now required by law to check in with a police officer every week. You consider yourself very lucky, hearing stories of Ukrainian peoples being arrested. 
+
 
 
 During a night out, you meet a young Irish girl whose parents have a farm just outside Dartmouth. 
-
 
 
 
@@ -109,9 +134,14 @@ You begin to make breakfast around 10 a.m. when you hear a loud [[bang...]]</tw-
 
 
 
-
 &lt;div style=&quot;text-indent: 15em;&quot;&gt;You have died in the &lt;a href=&quot;https://www.thecanadianencyclopedia.ca/en/article/halifax-explosion&quot;&gt;Halifax Explosion&lt;/a&gt;.&lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="9" name="America" tags="" position="331,458" size="100,100">You and your fellow workers attempt to run away to America.
+
+
+
+
+
+
+Click [[this]] for credits, acknowledgements and sources for this game and for further reading.</tw-passagedata><tw-passagedata pid="9" name="America" tags="" position="392,494" size="100,100">You and your fellow workers attempt to run away to America.
 
 
 
@@ -125,8 +155,43 @@ You are arrested at the border as enemies of the country.
 
 
 
-They send you to the Morrissey [[internment camp]]. </tw-passagedata><tw-passagedata pid="10" name="Morrissey" tags="" position="691,389" size="100,100">You are arrested, along with 50 other Ukranian men that work in the coal mine. You are sent to be detained in the Fernie Skating rink. A hundred men are crammed in the small building like cattle. You have done nothing illegal, other than being citizens of a country during a war they aren’t involved with. You are moved to the [[internment camp]].</tw-passagedata><tw-passagedata pid="11" name="internment camp" tags="" position="571,533" size="100,100">&lt;img src =&quot;https://upload.wikimedia.org/wikipedia/commons/6/64/Castle_mountain_camp_1915.jpg&quot;/&gt;
-The coal mine you used to work at days ago has been converted into a prisoner camp. The old cabins you used to get ready in have been cleared out and now act as your bunkhouses. The walls are only insulated with a tar lining and do nothing to protect you from the elements. Some of the other prisoners get other jobs in the community. They won&#39;t let you apply becuase you are illiterate. The food sucks here. Winter is on it’s way. You are also surrounded by [[wilderness]]. </tw-passagedata><tw-passagedata pid="12" name="wilderness" tags="" position="500,650" size="100,100">The people running the camp are extremely abusive. The food is moldy and inhumane. You hate it here and desire Freedom. You and your friends discuss an escape plan. You dream of a hot meal, a warm bath and a warm home. Do you wish to [[run away]]? You don&#39;t understand why the government is pounishing you for doing nothing. You know you are [[innocent]].</tw-passagedata><tw-passagedata pid="13" name="run away" tags="" position="425,800" size="100,100">You run away in the night. The wind is howling and snow crunches under your feet as you run into the cold, cold night. You become one of the thousands of prisoners to disappear from the internment camps, [[never to be seen again]]. 
+They send you to the Morrissey [[internment camp]]. </tw-passagedata><tw-passagedata pid="10" name="Morrissey" tags="" position="691,389" size="100,100">Your boss has you and all of your immigrant colleagues arrested for disturbing the business at the mine. Over 40 men are arrested. 
+
+
+You are sent to be detained in the local Fernie Skating rink. A hundred men are crammed in the small building like cattle. A building you once skating in as a citizen now acts as a makeshift prison.
+
+
+You have done nothing illegal, other than being citizens of a country during a war they aren’t involved with. After a few weeks, you are moved to the [[internment camp]].</tw-passagedata><tw-passagedata pid="11" name="internment camp" tags="" position="749,593" size="100,100">&lt;div style=&quot;text-align:centre;&quot;&gt;&lt;img src =&quot;https://upload.wikimedia.org/wikipedia/commons/6/64/Castle_mountain_camp_1915.jpg&quot; right=&quot;100px&quot; width=&quot;1100px&quot; height=&quot;600px&quot; &lt;/div&gt;
+&lt;div style=&quot;text-align:left;&quot;&gt;The coal mine you used to work at days ago has been converted into a prisoner camp. Arriving into the camp, you give the officers all the money that you have. They say it will be safely kept while in prison, but you doubt them. The men in soldier uniforms look like children, or old men unfit for war. 
+
+The old cabins you used to get ready for work in have been cleared out and now act as your bunkhouses. 
+
+The walls, only insulated with a tar lining do nothing to protect you from the elements. Rain leeks through the ceiling on stormy nights.
+
+Some of the other prisoners have gotten jobs in the community. The guards never offer you employment. You don&#39;t know why. During the day, you are forced by the guards to cut down trees in the surrounding forests. You don&#39;t get paid, but are still fed by the officers. The food sucks here. Every dinner consists of boiled potatoes, cabage and bread. To each side of the camp, you are surrounded by the [[wilderness]]. &lt;/div&gt;
+
+
+</tw-passagedata><tw-passagedata pid="12" name="wilderness" tags="" position="447,692" size="100,100">
+The officers running the camp are abusive, and don&#39;t know how to run the camp. 
+
+One of the other prisoners in the camp is a naturalized citizen of Canada. The officers don&#39;t believe him, as he has an accent. He receives letters from his father sayign they are trying to get him out. The officers say that their commanding officers has nto looked at the papers yet and that even if the prisoner is innocent, they are too poor to be released anyways. 
+
+Some of the prisoners were even able to bribe their way out of the camp. $500 meant the officers would look the other way and let you leave. You wish you had known this before giving them everything you had.
+
+
+The officers beat prisoners for anything out of line. They monitor everything you are saying with your fellow inmates. Anything un-patriotic will result in beatings. 
+
+You even hear of one prisoner receiving letters from a lawyer in America. He says that the treatment you are receiving is against the law and that we are not military prisoners of war. You don&#39;t know if the officers are just too stupid to know the difference, or if they don&#39;t care.
+
+
+
+You and some fellow prisoners discuss an escape plan. You dream of a hot meal, a warm bath and a warm home. Do you wish to [[run away]]? You don&#39;t understand why the government is pounishing you for doing nothing. You know you are [[innocent]].</tw-passagedata><tw-passagedata pid="13" name="run away" tags="" position="310,886" size="100,100">You run away in the night.
+
+The wind is howling and snow crunches under your feet as you run into the cold, cold night. 
+
+
+
+You become one of the thousands of prisoners to disappear from the internment camps, [[never to be seen again]]. 
 
 
 
@@ -134,8 +199,36 @@ The coal mine you used to work at days ago has been converted into a prisoner ca
 
 
 
-	</tw-passagedata><tw-passagedata pid="14" name="innocent" tags="" position="575,800" size="100,100">You need to survive. You have done nothing wrong. You have even made some friends in the camp. Couple of the guys talk about starting their own store in Kamloops. The food still sucks, the guards force us to work 14 hours each day against our will, anyone that doesn’t want to is beaten. You really want to leave this camp. The desire to run floods your every thought. Do you [[run away]]? Or do you [[stay]]?</tw-passagedata><tw-passagedata pid="15" name="stay" tags="" position="575,950" size="100,100">You decide to remain in the camp. You hear that the war is almost over and think you can make it. In 1920, you are released from the camp.  You decide to start a business with your fellow prisoners that you have met in the camp in Kamloops. </tw-passagedata><tw-passagedata pid="16" name="never to be seen again" tags="" position="425,950" size="100,100">
-             You are now one of the thousands of citizens that will go missing in Canada during World War 1. In the 1950s, the government will destroy all evidence related to the Ukranian internment camps. 
+	</tw-passagedata><tw-passagedata pid="14" name="innocent" tags="" position="721,858" size="100,100">You need to survive. 
+
+
+You have done nothing wrong.
+
+
+A couple of the prsioners in your cabin talk about running away. You are unsure. The guards make you work 14 hours everyday, logging nearby trees. 
+
+On some days, the bread on your plate is covered in mold. Other days, you go without food at all. They tell you that there is not enough supply from the war.
+
+The desire to run floods your every thought. You crave your warm home. You crave interactions with other people beside these prsioners stuck with you. Do you [[run away]]? Or do you [[stay]]?</tw-passagedata><tw-passagedata pid="15" name="stay" tags="" position="641,1079" size="100,100">You decide to remain in the camp and tough it out, as you hear that the war is coming to an end. 
+
+The year is 1919.
+
+You hear that the war is over and think you can make it. 
+
+
+You wait for what feels like centuries. The officers seem to be more lenient after they hear the war is over. You remain in the internment camp for antoher year. Some days without food, the thoughts of running away into the night still float by.
+
+
+In 1920, you are finally released from the camp. They give you your savings back when you leave, but they seem to come up short. They brush it off as soemthing going wrong and they will nto reimburse you.
+
+
+
+You are now [[free]].
+</tw-passagedata><tw-passagedata pid="16" name="never to be seen again" tags="" position="372,1065" size="100,100">
+             
+			 	 
+			 
+			 You are now one of the thousands of citizens that will go missing in Canada during World War 1. In the 1950s, the government will destroy all evidence related to the Ukranian internment camps. 
 	
 	
 	
@@ -143,12 +236,16 @@ The coal mine you used to work at days ago has been converted into a prisoner ca
 	
 	
 	
+	&lt;div style=&quot;text-indent: 15em;&quot;&gt;Their stories will not be forgotten.&lt;/div&gt;
 	
-	&lt;div style=&quot;text-indent: 15em;&quot;&gt;Their stories will not be forgotten.&lt;/div&gt;</tw-passagedata><tw-passagedata pid="17" name="Starting Menu" tags="" position="30,71.5" size="100,100">						&lt;div style=&quot;text-indent: 12em;&quot;&gt;Our Home and Native Land: Ukranian Internment in WW1&lt;/div&gt;
+	
+	
+	
+Click [[this]] for credits, acknowledgements and sources for this game and for further reading.</tw-passagedata><tw-passagedata pid="17" name="Starting Menu" tags="" position="30,71" size="100,100">						&lt;div style=&quot;text-indent: 12em;&quot;&gt;Our Home and Native Land: Ukranian Internment in WW1&lt;/div&gt;
 
-Our Home and Native Land is a game that simulates the journey a young Ukrainian man would have taken to immigrate to Canada in 1914. In the 1950’s the Canadian Government burned all records of the internment camps used in WW1. The goal of this game is to illustrate the stories of those of German, Austrian and Ukrainian descent, who came to Canada in search of better lives and were unjustly imprisoned during WW1.
+Our Home and Native Land is a game that simulates the journey a young Ukrainian man would have taken to immigrate to Canada in 1914. In the 1950’s, the Canadian Government burned all records of the internment camps used in WW1. The goal of this game is to illustrate the stories of those of German, Austrian and Ukrainian descent, who came to Canada in search of better lives and were unjustly imprisoned during WW1.
 
-Everyone had a unique story on how they came to Canada. In no way is this narrative a true experience, but simply the amalgamation of various source materials that I have gathered. This game deals with some heavy topics such as death and abuse. 
+Everyone has a unique story about how they came to Canada. In no way is this narrative a true experience, but simply the amalgamation of various source materials that I have gathered. This game deals with some heavy topics such as death and abuse. 
 
 This game uses atmospheric music to enhance gameplay. While not necessary, it is encouraged to play with sound on.
 
@@ -158,7 +255,56 @@ Thank you for playing.
          
 					  				  
 		   &lt;div style=&quot;text-indent: 21em;&quot;&gt; Click [[Here]] to start.&lt;/div&gt;
-					 </tw-passagedata><tw-passagedata pid="18" name="Untitled Passage" tags="" position="877,344.5" size="100,100"></tw-passagedata></tw-storydata>
+					 </tw-passagedata><tw-passagedata pid="18" name="Untitled Passage 1" tags="" position="404,170.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="19" name="free" tags="" position="641,1229" size="100,100">
+
+
+
+
+
+
+Congratulations! You have survived being a Ukrainian during WW1 in Canada. 
+
+
+
+
+
+
+
+
+
+
+Click [[this]] for credits, acknowledgements and sources for this game and for further reading.</tw-passagedata><tw-passagedata pid="20" name="this" tags="" position="297,1503" size="100,100">
+
+
+Thank you for playing! This game was created by Thomas Smith for Dr. Kim Martin&#39;s Digital Humanities class at the University of Guelph.
+
+I would like to thank Dr. Martin for her guidance with this project, as well as everyone in the class that has helped along the way. 
+
+Thank you to you, the reader who might interact with this project.
+
+
+
+Thomas Smith&#39;s Orchid ID
+&lt;div itemscope itemtype=&quot;https://schema.org/Person&quot;&gt;&lt;a itemprop=&quot;sameAs&quot; content=&quot;https://orcid.org/0000-0002-3053-069X&quot; href=&quot;https://orcid.org/0000-0002-3053-069X&quot; target=&quot;orcid.widget&quot; rel=&quot;me noopener noreferrer&quot; style=&quot;vertical-align:top;&quot;&gt;&lt;img src=&quot;https://orcid.org/sites/default/files/images/orcid_16x16.png&quot; style=&quot;width:1em;margin-right:.5em;&quot; alt=&quot;ORCID iD icon&quot;&gt;https://orcid.org/0000-0002-3053-069X&lt;/a&gt;&lt;/div&gt;
+
+
+Works Cited :
+
+Buri, George. “‘Enemies Within Our Gates:’ Brandon’s Alien Detention Centre During the Great War.” Manitoba History, no. 56 (October 2007): 3–11.
+
+Kordan, Bohdan S. Enemy Aliens, Prisoners of War : Internment in Canada during the Great War. McGill-Queen’s Studies in Ethnic History. Series Two. Montreal ; McGill-Queen’s University Press, n.d.
+
+Kordan, Bohdan S. No Free Man Canada, the Great War, and the Enemy Alien Experience. McGill-Queen’s Studies in Ethnic History. Series Two ; 39. Montreal, [Quebec]; McGill-Queen’s University Press, n.d.
+
+Luciuk, Lubomyr Y., and Kassandra Luciuk. Ukrainian Internment in Canada. Toronto: Historica Canada, 2019.
+
+http://www.adamhammond.com/twineguide/
+http://colorsafe.co/
+https://pier21.ca/research/immigration-history
+https://www.bac-lac.gc.ca/eng/discover/immigration/immigration-records/immigrants-ukraine-1891-1930/Pages/introduction.aspx
+https://philome.la/smhumphreys/the-cogewea-project/play/index.html
+http://www.depressionquest.com/
+</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
